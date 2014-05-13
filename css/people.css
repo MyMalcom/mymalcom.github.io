@@ -1,0 +1,162 @@
+.ch-grid{
+	margin-bottom: 20px;
+}
+
+
+.ch-grid li{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	padding-right:20px;
+	padding-left: 21px;
+	padding-top: 20px;
+	
+		
+}
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 
+		inset 0 2px 5px rgba(0,0,0,.3),
+		0 1px 2px rgba(0,0,0,0.1);
+	background-size: 100%;
+	background-repeat: no-repeat;		
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.antonio { 
+	background-image: url("../imgs/people/antonio.jpg");
+}
+.david { 
+	background-image: url("../imgs/people/david.jpg");
+}
+.alfonso { 
+	background-image: url("../imgs/people/alfonso.png");
+	}
+.javier { 
+	background-image: url("../imgs/people/javier.jpg");
+}
+.dani { 
+	background-image: url("../imgs/people/dani.png");
+}
+.emma { 
+	background-image: url("../imgs/people/emma.jpg");
+}
+.mundo { 
+	background-image: url("../imgs/people/raimundo.jpg");
+}
+.fernando { 
+	background-image: url("../imgs/people/fernando.jpg");
+}
+.guillermo { 
+	background-image: url("../imgs/people/guillermo.jpg");
+}
+.helena { 
+	background-image: url("../imgs/people/helena.jpg");
+}
+.ignasi { 
+	background-image: url("../imgs/people/ignasi.jpeg");
+}
+.ferran { 
+	background-image: url("../imgs/people/ferran.jpg");
+}
+
+
+.ch-info {
+	position: absolute;
+	background: rgba(74,114,178, 0.8);
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	opacity: 0;
+	text-align: center;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden;
+
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	text-align: center;
+	margin: 0 30px;
+	padding: 45px 0 0 0;
+	height: 140px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	font-style: italic;
+	font-size: 12px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: -80px;
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out 0.2s;
+	-moz-transition: all 1s ease-in-out 0.2s;
+	-o-transition: all 1s ease-in-out 0.2s;
+	-ms-transition: all 1s ease-in-out 0.2s;
+	transition: all 1s ease-in-out 0.2s;
+}
+
+/*.ch-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}*/
+
+.ch-info p:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.ch-item:hover .ch-info {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.ch-item:hover .ch-info p {
+	opacity: 1;
+}
